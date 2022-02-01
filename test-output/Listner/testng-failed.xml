@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Listner]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="genericutility.LisImpClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.vtiger.comcast.organiaztiontest.Organization">
+        <methods>
+          <include name="createOrgWithIndutriesTest"/>
+          <include name="configAC"/>
+          <include name="configAM"/>
+          <include name="configBC"/>
+          <include name="configBM"/>
+        </methods>
+      </class> <!-- com.vtiger.comcast.organiaztiontest.Organization -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Listner] -->
